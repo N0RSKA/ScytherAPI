@@ -73,6 +73,15 @@ public class ScytherAPI {
 	}
 	
 	/** 
+	* Set the current experience of a harvester hoe.
+	* @param Harvester hoe item, an item can be verified with .isHarvesterItem(ItemStack harvesterItem).
+	*/
+	
+	public static ItemStack setHarvesterHoeXP(ItemStack harvesterItem, Double experience) {
+		return null;
+	}
+	
+	/** 
 	* Get the current harvester hoe mode.
 	* @param Harvester hoe item, an item can be verified with .isHarvesterItem(ItemStack harvesterItem).
 	* @return Returns the current level mode of the harvester hoe which can be "DigDirt", "Autosell", "Autocollect".
